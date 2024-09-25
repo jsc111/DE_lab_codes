@@ -7,7 +7,7 @@ from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from sklearn.feature_selection import SelectKBest, f_classif
 
 # 1. Load/Read and Display the Dataset (with Missing Values)
-df = pd.read_csv('synthetic_dataset.csv')
+df = pd.read_csv('datasets\synthetic_dataset.csv')
 
 # Display the dataset (first few rows)
 print("Dataset Preview:")

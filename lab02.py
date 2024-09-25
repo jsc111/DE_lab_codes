@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-dataset = pd.read_csv('netflix1.csv')
+dataset = pd.read_csv('datasets\netflix1.csv')
 print(dataset)
 
 missing_values = dataset.isnull().sum()

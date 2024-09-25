@@ -35,4 +35,4 @@ df['Target'] = np.random.choice([0, 1], size=len(df))
 print(df.head())
 
 # Save the dataset to CSV (if needed)
-df.to_csv('synthetic_dataset.csv', index=False)
+df.to_csv('datasets\synthetic_dataset.csv', index=False)

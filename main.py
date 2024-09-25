@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-dataset = pd.read_csv('healthcare_dataset.csv')
+dataset = pd.read_csv('datasets\healthcare_dataset.csv')
 print(dataset)
 
 print("*****First 5 rows*****")
